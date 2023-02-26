@@ -27,7 +27,7 @@ mv ./bcdemo ./<new-foldername-here>
 Install breeze.
 ```
 php artisan breeze:install
-``
+```
 
 ---
 Then `cd ./<foldername>` into your application folder and run
