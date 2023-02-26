@@ -1,16 +1,46 @@
 ## Install With iTerm
 
-Go to your code dir by typing
+Go to your **code** dir by typing one of the following in your console.
+```
+~/code
+```
+```
+code
+```
+```
+sites
+```
 
-`code` or `sites` in iTerm
-
-Then run 
+---
+Then get this repo by typing the following into console.
 ```
 git clone https://github.com/ryanmcvay/bcdemo.git
 ```
 
-Then move into application dir and run `composer install` and `npm install`
+---
+Then you may want to rename your newly created project.
+```
+mv ./bcdemo ./<new-foldername-here>
+```
 
-Then build env file by running the following `mv .env.example .env`
+---
+Then `cd ./<foldername>` into your application folder and run
+```
+composer install
+```
 
-Then run `php artisan key:generate`
+```
+npm install
+```
+
+---
+Then build the env file by running the following
+```
+mv .env.example .env
+```
+
+---
+Then generate a new encryption key by running the following command.
+```
+php artisan key:generate
+```
