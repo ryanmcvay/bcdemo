@@ -1,4 +1,4 @@
-## Install With iTerm
+## BCDemo Project Installation Proccess
 
 Go to your **code** dir by typing one of the following in your console.
 ```
