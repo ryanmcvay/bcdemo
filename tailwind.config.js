@@ -28,7 +28,7 @@ module.exports = {
                     700: '#000006',
                     800: '#000000'
                 },
-                  primary: {
+                primary: {
                     100: '#ffc381',
                     200: '#ffaf6d',
                     300: '#ff9b59',
@@ -37,7 +37,7 @@ module.exports = {
                     600: '#c75f1d',
                     700: '#b34b09',
                     800: '#9f3700'
-                }
+                },
             },
             boxShadow: {
                 'ryan': '0 3px 8px rgba(0, 0, 0, 0.4)',
