@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DiscController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,6 +11,4 @@ Route::get('/bag', function () {
     return view('bag.index');
 })->name('bag');
 
-Route::get('/disc', function () {
-    return view('disc.index');
-})->name('disc');
+Route::resource('disc' , DiscController::class);
