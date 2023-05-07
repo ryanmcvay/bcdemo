@@ -1,1 +1,0 @@
-<a {{ $attributes->merge(['class'=>'block py-3 px-4 bg-white/60 hover:bg-white hover:shadow-glow text-center text-sm font-semibold rounded-full transition ease-in-out duration-500']) }}>{{ $label }}</a>

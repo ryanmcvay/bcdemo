@@ -18,7 +18,7 @@ return new class extends Migration
             $table->decimal('glide')->nullable();
             $table->decimal('fade')->nullable();
             $table->decimal('turn')->nullable();
-            $table->decimal('weight')->nullable();
+            $table->integer('weight')->nullable();
             $table->timestamps();
         });
     }

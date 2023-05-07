@@ -1,5 +1,5 @@
 <x-layouts.app>
-    <div class="border border-white/10 max-w-md p-8 rounded-md shadow-md backdrop-blur-md">
+    <x-glass-container>
         <header class="w-full text-center">
             <i class="fas fa-flying-disc text-[6rem]"></i>
             <h1 class="uppercase text-xl font-bold">Disc Golf Bag</h1>
@@ -9,9 +9,9 @@
             
             <div id="buttons" class="mt-8 space-y-4">
                 <x-button icon="fa-backpack" name="Baggy" href="{{ route('bag') }}"/>
-                <x-button icon="fa-flying-disc" name="Add A Disc" href="{{ route('disc') }}"/>
+                <x-button icon="fa-flying-disc" name="Add A Disc" href="{{ route('disc.create') }}"/>
             </div>
 
         </div>
-    </div>
+    </x-glass-container>
 </x-layouts.app>

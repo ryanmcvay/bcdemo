@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('discs', function (Blueprint $table) {
-            $table->foreignId('manufacture_id')->constrained()->onDelete('restricted')->after('id')->nullable();
+            $table->integer('manufacture_id');
         });
     }
 

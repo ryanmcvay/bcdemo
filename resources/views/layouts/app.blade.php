@@ -32,11 +32,11 @@
         
         <!-- Scripts -->
         <script src="https://kit.fontawesome.com/5fae771b98.js" crossorigin="anonymous"></script>
-        <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
-        <script defer src="https://unpkg.com/@alpinejs/mask@3.x.x/dist/cdn.min.js"></script>
-        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/mask@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         
-        {{-- @livewireStyles --}}
+        @livewireStyles
     </head>
     <body class="antialiased bg-gray-600 text-white">
         <main class="w-full h-screen relative">
@@ -49,8 +49,6 @@
 
             </div>
         </main>
-         
-
-        {{-- @livewireScripts --}}
+        @livewireScripts
     </body>
 </html>
