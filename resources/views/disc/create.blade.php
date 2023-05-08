@@ -37,7 +37,7 @@
                         <span class="text-sm text-white/75 font-semibold"><i class="fas fa-chevron-down"></i></span>
                     </button>
 
-                    <div x-show="ddown" x-on:click.away="ddown=false" x-transition class="absolute top-[100%] z-40 w-full bg-white/5 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
+                    <div x-show="ddown" x-on:click.away="ddown=false" x-transition class="absolute top-[100%] z-40 w-full bg-black/20 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
                         @foreach ($manufactures as $disc)
                             <button x-on:click="manufacture='{{ $disc->name }}', manufacture_id={{ $disc->id }}, ddown=false" type="button" class="w-full py-2 hover:bg-white/10">{{ $disc->name }}</button>
                         @endforeach
@@ -59,7 +59,7 @@
                             <span class="text-sm text-white/75 font-semibold"><i class="fas fa-chevron-down"></i></span>
                         </button>
     
-                        <div x-show="speedRanges" x-on:click.away="speedRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-white/5 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
+                        <div x-show="speedRanges" x-on:click.away="speedRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-black/20 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
                             @foreach ($speedRanges as $item)
                                 <button x-on:click="speed='{{ $item }}', speedRanges=false" type="button" class="w-full py-2 hover:bg-white/10">{{ $item }}</button>
                             @endforeach
@@ -77,7 +77,7 @@
                             <span class="text-sm text-white/75 font-semibold"><i class="fas fa-chevron-down"></i></span>
                         </button>
     
-                        <div x-show="glideRanges" x-on:click.away="glideRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-white/5 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
+                        <div x-show="glideRanges" x-on:click.away="glideRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-black/20 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
                             @foreach ($glideRanges as $item)
                                 <button x-on:click="glide='{{ $item }}', glideRanges=false" type="button" class="w-full py-2 hover:bg-white/10">{{ $item }}</button>
                             @endforeach
@@ -95,7 +95,7 @@
                             <span class="text-sm text-white/75 font-semibold"><i class="fas fa-chevron-down"></i></span>
                         </button>
     
-                        <div x-show="fadeRanges" x-on:click.away="fadeRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-white/5 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
+                        <div x-show="fadeRanges" x-on:click.away="fadeRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-black/20 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
                             @foreach ($fadeRanges as $item)
                                 <button x-on:click="fade='{{ $item }}', fadeRanges=false" type="button" class="w-full py-2 hover:bg-white/10">{{ $item }}</button>
                             @endforeach
@@ -113,7 +113,7 @@
                             <span class="text-sm text-white/75 font-semibold"><i class="fas fa-chevron-down"></i></span>
                         </button>
     
-                        <div x-show="turnRanges" x-on:click.away="turnRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-white/5 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
+                        <div x-show="turnRanges" x-on:click.away="turnRanges=false" x-transition class="absolute top-[100%] z-40 w-full bg-black/20 border border-white/20 rounded-2xl backdrop-blur h-60 overflow-hidden overflow-y-auto flex flex-col gap-1 divide-y divide-white/10">
                             @foreach ($turnRanges as $item)
                                 <button x-on:click="turn='{{ $item }}', turnRanges=false" type="button" class="w-full py-2 hover:bg-white/10">{{ $item }}</button>
                             @endforeach
